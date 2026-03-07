@@ -1,4 +1,11 @@
 const API = "http://localhost:5000";
+// type url "http://localhost:5000/login.html" to access login page
+
+const username = document.getElementById("username");
+const password = document.getElementById("password");
+const title = document.getElementById("title");
+const deadline = document.getElementById("deadline");
+const taskList = document.getElementById("task-list");
 
 function register() {
     fetch(`${API}/register`, {
