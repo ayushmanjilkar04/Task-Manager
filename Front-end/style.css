@@ -1,21 +1,125 @@
 body {
-    font-family: Arial;
-    text-align: center;
-    margin-top: 50px;
+  font-family: Arial;
+  text-align: center;
+  margin-top: 50px;
+  background: linear-gradient(145deg, #1abc9c, #8e44ad, #9b59b6, #3498db);
+  color: black;
+  min-height: 100vh;
 }
 
-input, button {
+#title1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.login-container {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+  display: inline-block;
+}
+button {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+}
+
+button {
+  background: #fff;
+  color: #8e44ad;
+  font-weight: bold;
+  cursor: pointer;
+  transition:
+    background 0.3s,
+    color 0.3s;
+
+  &:hover {
+    background: #8e44ad;
+    color: #fff;
+    transform: scale(0.98);
+  }
+}
+
+#btn {
+  background: #fff;
+  color: #3498db;
+  font-weight: bold;
+  cursor: pointer;
+  transition:
+    background 0.3s,
+    color 0.3s;
+
+  &:hover {
+    background: #3498db;
+    color: #fff;
+    transform: scale(0.98);
+  }
+}
+
+#task{
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+#deadline{
+    background: rgba(255, 255, 255, 0.5);
     padding: 10px;
-    margin: 5px;
+    border-radius: 4px;
+    border: none;
 }
-
 ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
 }
 
 li {
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid gray;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid gray;
 }
+#task-list li {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50px;
+ 
+}
+
+/* li{
+    animation: fadeIn 0.5s ease-in-out;
+}
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+
+#complete-btn {
+  background: #2ecc71;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition:
+    background 0.3s,
+    color 0.3s;
+
+  &:hover {
+    background: #27ae60;
+    color: #fff;
+    transform: scale(0.98);
+  }
+}
+
