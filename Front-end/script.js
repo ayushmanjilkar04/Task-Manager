@@ -49,10 +49,10 @@ function parseJwt(token) {
 }
 
 function addTask() {
-    if (!title.value || !deadline.value) {
-        alert("Please fill all fields");
-        return;
-    }
+  if (!title.value || !deadline.value) {
+    alert("Please fill all fields");
+    return;
+  }
   fetch(`${API}/add-task`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },

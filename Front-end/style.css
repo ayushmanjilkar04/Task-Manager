@@ -63,22 +63,22 @@ button {
   }
 }
 
-#task{
-    background: rgba(255, 255, 255, 0.5);
-    padding: 20px;
-    border-radius: 8px;
-    display: inline-block;
+#task {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+  display: inline-block;
 }
 
-#deadline{
-    background: rgba(255, 255, 255, 0.5);
-    padding: 10px;
-    border-radius: 4px;
-    border: none;
+#deadline {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
 }
 ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 li {
@@ -89,7 +89,6 @@ li {
 #task-list li {
   background: rgba(255, 255, 255, 0.5);
   border-radius: 50px;
- 
 }
 
 /* li{
@@ -122,4 +121,3 @@ li {
     transform: scale(0.98);
   }
 }
-
